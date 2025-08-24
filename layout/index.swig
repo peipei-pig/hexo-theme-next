@@ -7,7 +7,7 @@
 
 {% block content %}
 
-  {%- for post in page.posts.toArray() %}
+  {%- for post in page.posts.limit(10).toArray() %}
     {{ partial('_macro/post.swig', {post: post, is_index: true}) }}
   {%- endfor %}
 
