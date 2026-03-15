@@ -119,10 +119,10 @@ darkmode: true
 # External url should start with http:// or https://
 menu:
   首页: / || fa fa-home
-  训练: /categories/论文阅读/ || fa fa-dumbbell
-  推理: /categories/分布式基础/ || fa fa-microchip
-  工具: /tags/shell/ || fa fa-toolbox
-  杂项: /categories/其它/ || fa fa-box-open
+  训练: /categories/训练/ || fa fa-dumbbell
+  推理: /categories/推理/ || fa fa-microchip
+  工具: /categories/工具/ || fa fa-toolbox
+  杂项: /categories/杂项/ || fa fa-box-open
   归档: /archives/ || fa fa-archive
   关于: /about/ || fa fa-user
   #about: /about/ || fa fa-user

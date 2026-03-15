@@ -16,7 +16,6 @@
       <div class="collection-title">
         <h2 class="collection-header">
           {{- page.category }}
-          <small>{{ __('title.category') }}</small>
         </h2>
       </div>
 
