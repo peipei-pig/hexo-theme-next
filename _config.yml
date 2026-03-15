@@ -118,10 +118,11 @@ darkmode: true
 # When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  #home: / || fa fa-home
   首页: / || fa fa-home
-  分类: /categories/ || fa fa-th
-  标签: /tags/ || fa fa-tags
+  训练: /categories/论文阅读/ || fa fa-dumbbell
+  推理: /categories/分布式基础/ || fa fa-microchip
+  工具: /tags/shell/ || fa fa-toolbox
+  杂项: /categories/其它/ || fa fa-box-open
   归档: /archives/ || fa fa-archive
   关于: /about/ || fa fa-user
   #about: /about/ || fa fa-user
