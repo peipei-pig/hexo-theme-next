@@ -13,12 +13,6 @@
   {######################}
   <div class="post-block">
     <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">
-          {{- page.category }}
-        </h2>
-      </div>
-
       {{ post_template.render(page.posts) }}
     </div>
   </div>
